@@ -9,3 +9,5 @@ cout << sum;
 
 
  // this for loop sums numbers from -100 to 100
+ 
+ // outputs 0 
