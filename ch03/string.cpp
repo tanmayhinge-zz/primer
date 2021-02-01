@@ -3,8 +3,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-	string line;
-	while(getline(cin, line))
-		if(line.size()>5)
-			cout << line << endl;
+	string line("hello");
+	for(auto c : line)
+		cout << c <<endl;
 }
