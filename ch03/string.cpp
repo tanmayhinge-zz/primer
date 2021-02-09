@@ -4,9 +4,7 @@
 using namespace std;
 int main(){
 	string l("Hello World!!!");
-	for(auto &c : l)
-		c = toupper(c);
-		
-	cout << l << endl;
+	string s("Hello");
+	cout << strcmp(l,s) << endl;
 		
 }
